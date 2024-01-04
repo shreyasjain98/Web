@@ -1,0 +1,212 @@
+.footer {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footleft {
+    width: 60%;
+    /* border: 2px solid red; */
+    height: auto;
+
+}
+
+.footleftspecial {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footright {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    /* border: 2px solid green; */
+    text-align: left;
+}
+
+.foottext {
+    font-size: 14px;
+    color: gray;
+    margin-top: 18px;
+}
+
+.footlogo {
+    width: 120px;
+    padding: 20px 25px;
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footfollowicon {
+    display: flex;
+}
+
+.footfollow {
+    margin-top: 30px;
+}
+
+.footfollow h4 {
+    font-size: 15px;
+}
+
+.footfollowicon p {
+    margin: 5px;
+}
+
+.quick {
+    width: 120px;
+    height: 200px;
+    /* border: 2px solid blue; */
+    text-align: left;
+}
+
+.legal {
+    width: 100px;
+    height: 200px;
+    /* border: 2px solid blue; */
+}
+
+.footcontact {
+    width: auto;
+    height: 220px;
+    /* border: 2px solid blue; */
+}
+
+.quick p {
+    line-height: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.quick h2 {
+    font-size: 17px;
+}
+
+.legal {
+    text-align: left;
+    width: 115px;
+}
+
+.legal p {
+    line-height: 5px;
+    margin-top: 20px;
+    text-wrap: wrap;
+    font-size: 12px;
+    color: gray;
+}
+
+.legal h2 {
+    font-size: 17px;
+}
+
+.footcontact {
+    text-align: left;
+    height: auto;
+}
+
+.footcontact p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.footcontact h2 {
+    font-size: 17px;
+}
+
+.mailicon {
+    font-size: small;
+}
+
+.footjoin button {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.footjoin {
+    /* border: 2px solid red; */
+    padding-left: 20px;
+    align-items: left;
+    text-align: left;
+}
+
+.footjoin input {
+    padding: 5px 10px;
+    border: 2px solid black;
+    color: black;
+}
+
+.footjoin h2 {
+    font-size: 17px;
+}
+
+@media screen and (max-width:1024px) {
+    .footer {
+        height: auto;
+    }
+
+    .footright {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footleftspecial {
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+    .foottext {
+        font-size: 25px;
+    }
+    .footright {
+        width: auto;
+        margin-right: 80px;
+    }
+    .footleft {
+        width: 600px;
+        margin-top: 15px;
+
+    }
+    .footjoin {
+        margin-left: -20px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:558px) {
+    .footleftspecial {
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+   
+}
+@media screen and (max-width:473px) {
+      .foottext{
+        font-size: 20px;
+      }
+      .footright {
+         height: auto;
+         width: 400px;
+         
+      }
+}
+@media screen and (max-width:320px) {
+    .foottext{
+      font-size:15px;
+    }
+    .footright {
+       height: auto;
+       width: 400px;
+       
+    }
+}

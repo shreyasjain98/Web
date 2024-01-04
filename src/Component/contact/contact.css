@@ -1,0 +1,235 @@
+.contact {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactright {
+    width: 420px;
+    height: 410px;
+    padding: 10px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.textinput {
+    width: 380px;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid gray;
+    padding-top: -10px;
+
+}
+
+#msg {
+    width: 380px;
+    height: 100px;
+    padding-top: -100px;
+    text-indent: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.contactright button {
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(155, 155, 155);
+    color: white;
+    border: none;
+    margin-left: -250px;
+    margin-top: 10px;
+}
+
+.contactleft {
+    width: 420px;
+    height: 410px;
+    /* border: 2px solid green; */
+}
+
+.contactleft img {
+    width: 350px;
+    height: 350px;
+
+}
+
+.contactright h1 {
+    font-size: 30px;
+}
+
+@media screen and (max-width:888px) {
+    .contact {
+        padding: 15px;
+    }
+
+    .contactright {
+        width: 350px;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .textinput {
+        width: 300px;
+    }
+
+    #msg {
+        width: 300px;
+
+    }
+
+    .contactright button {
+        padding: 5px 20px;
+        margin-left: -210px;
+    }
+
+    .contactleft {
+        height: auto;
+        width: auto;
+    }
+
+    .contactleft img {
+        width: 300px;
+        height: 300px;
+
+    }
+}
+
+@media screen and (max-width:785px) {
+    .contact {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width:717px) {
+    .contactright {
+        width:500px;
+        height: auto;
+        padding-bottom:40px;
+        padding-top: 20px;
+    }
+    .textinput {
+        width:450px;   
+    }
+    #msg{
+        width:450px;   
+    }
+    .contactright button {
+        padding: 5px 25px;
+        margin-left:-350px;
+    }
+    .contactleft img {
+        width: 450px;
+        height: 450px;
+    }
+
+}
+@media screen and (max-width:525px) {
+    .contactright {
+        width: 400px;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .textinput {
+        width: 330px;
+    }
+
+    #msg {
+        width: 330px;
+
+    }
+
+    .contactright button {
+        padding: 5px 20px;
+        margin-left: -240px;
+    }
+
+    .contactleft {
+        height: auto;
+        width: auto;
+    }
+
+    .contactleft img {
+        width: 370px;
+        height: 370px;
+
+    }
+}
+@media screen and (max-width:435px) {
+    .contactright {
+        width: 350px;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .textinput {
+        width: 300px;
+    }
+
+    #msg {
+        width: 300px;
+
+    }
+
+    .contactright button {
+        padding: 5px 20px;
+        margin-left: -210px;
+    }
+
+    .contactleft {
+        height: auto;
+        width: auto;
+    }
+
+    .contactleft img {
+        width: 320px;
+        height: 320px;
+
+    }
+}
+@media screen and (max-width:395px) {
+    .contactright {
+        width: 300px;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .textinput {
+        width:250px;
+    }
+
+    #msg {
+        width:250px;
+
+    }
+
+    .contactright button {
+        padding: 5px 20px;
+        margin-left: -160px;
+    }
+
+    .contactleft {
+        height: auto;
+        width: auto;
+    }
+
+    .contactleft img {
+        width:250px;
+        height:250px;
+
+    }
+}

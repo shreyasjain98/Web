@@ -1,0 +1,134 @@
+.servicecont{
+    width:100%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    padding:20px;
+    padding-left:25px;
+    padding-right: 25px;
+    background-color: rgb(218, 218, 218);
+    
+}
+
+.slon{
+    display:flex;
+    justify-content: space-between;
+}
+.slon h1{
+    font-size:32px;
+}
+.slon h5{
+    font-size:17px;
+}
+.servicebox{
+    width: 220px;
+    height:220px;
+    /* border: 2px solid green; */
+    margin-top: 15px;
+    text-align: left;
+    padding: 13px;
+    margin:5px;
+    background-color: rgb(241, 241, 241);
+}
+.servicecont h4{
+    text-align: left;
+    font-size:18px;
+    margin-top:10px;
+}
+.servicebox h2{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.servicebox p{
+    font-size: 11px;
+}
+.servicebox h3{
+    font-size: 15px;
+}
+.clientlogo{
+   width: 50px;
+   height: 50px;
+   /* border: 2px solid rgb(57, 83, 5); */
+   background-color: rgb(211, 211, 211);
+   border-radius:50px;
+}
+.service1{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    /* flex-wrap: wrap; */
+}
+@media screen and (max-width:1024px) {
+    .servicecont{
+      height: auto;
+    }
+    .servicebox{
+        width: auto;
+        height: auto;
+    }
+  }
+  @media screen and (max-width:660px) {
+    .service1{
+       flex-wrap: wrap;
+    }
+    .slon h1{
+        font-size:25px;
+    }
+  }
+  /* @media screen and (max-width:660px) {
+    .service1{
+       justify-content: space-evenly;
+    }
+  } */
+  @media screen and (max-width:510px) {
+
+    
+     .slon h1{
+        font-size:20px;
+    }
+    .slon h5{
+        font-size:12px;
+    }
+    .servicecont h4{
+        font-size:12px;
+
+    }
+    .servicebox{
+        width: 450px;
+        height:300px;
+        margin-top: 15px;
+        text-align: left;
+        padding: 13px;
+        margin:5px;
+    }
+    .servicebox h2{
+        font-size:23px;
+        margin-top:10px;
+    }
+    .servicebox p{
+        font-size:15px;
+    }
+    .clientlogo{
+        width: 65px;
+        height: 65px;
+     }
+  }
+  @media screen and (max-width:375px) {
+
+    .slon h1{
+        font-size:17px;
+    }
+    .slon h5{
+        font-size:10px;
+    }
+    .slon p{
+        font-size:12px;
+    }
+    .servicebox h2{
+        font-size:20px;
+        margin-top:10px;
+    }
+    .servicebox p{
+        font-size:13px;
+        margin-top:10px;
+    }
+  }

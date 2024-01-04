@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* .con {
+  border: 2px solid red;
+} */
+
+.navbar {
+  height: 70px;
+}
+
+.list {
+  padding-left: 150px;
+}
+
+.icon {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.icon p {
+  margin-left: -50px;
+  padding: 30px;
+}
+
+.logo {
+  padding-left: 30px;
+}

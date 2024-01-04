@@ -1,0 +1,86 @@
+.aboutcon {
+    width: 100%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+.aboutus {
+    width: 93%;
+    height: auto;
+    /* border: 2px solid green; */
+    margin-left: 35px;
+}
+
+.right {
+    width: auto;
+    height: auto;
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-top: 50px;
+    margin-left: -10px;
+    text-wrap: wrap;
+    overflow: auto;
+}
+
+.right p {
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+.right h4 {
+    font-size: 14px;
+    color: gray;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.right h1 {
+    font-size: 33px;
+    margin-top: -10px;
+}
+
+.left {
+    width: 450px;
+    height: auto;
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-top: 50px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .aboutcon {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .aboutcon {
+        padding-right: 25px;
+        padding-left: 45px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .aboutcon {
+        flex-wrap: wrap;
+    }
+    .left {
+        height: 300px;
+    }
+    .right h1 {
+        font-size: 30px;
+    }
+    .right h4 {
+        font-size: 20px;
+    }
+    .left {
+        width: 620px;
+        margin-left: -10px;
+    }
+}
